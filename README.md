@@ -1,62 +1,121 @@
-# رفع سياسة الخصوصية على GitHub Pages
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية - Smart SMS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2ecc71;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #27ae60;
+            border-bottom: 2px solid #2ecc71;
+            padding-bottom: 10px;
+        }
+        .highlight {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-right: 4px solid #2ecc71;
+        }
+        .contact {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>سياسة الخصوصية - Smart SMS</h1>
+        
+        <div class="highlight">
+            <strong>آخر تحديث:</strong> 8 يوليو 2024
+        </div>
 
-## الخطوات:
+        <h2>مقدمة</h2>
+        <p>مرحباً بك في تطبيق Smart SMS. نحن نلتزم بحماية خصوصيتك وبياناتك الشخصية. هذه السياسة توضح كيفية جمع واستخدام وحماية معلوماتك.</p>
 
-### 1. إنشاء مستودع GitHub جديد
-- اذهب إلى [GitHub.com](https://github.com)
-- انقر على "New repository"
-- اسم المستودع: `smartsms-privacy`
-- اختر "Public"
-- انقر "Create repository"
+        <h2>البيانات التي نجمعها</h2>
+        <p>تطبيق Smart SMS يجمع الحد الأدنى من البيانات الضرورية لعمل التطبيق:</p>
+        <ul>
+            <li><strong>رسائل SMS:</strong> للقراءة والرد عليها</li>
+            <li><strong>جهات الاتصال:</strong> لعرض أسماء المرسلين</li>
+            <li><strong>إعدادات التطبيق:</strong> لحفظ تفضيلاتك</li>
+        </ul>
 
-### 2. رفع الملفات
-- ارفع ملف `privacy-policy.html` إلى المستودع
-- أعد تسميته إلى `index.html`
+        <h2>كيفية استخدام البيانات</h2>
+        <p>نستخدم البيانات المجمعة فقط لـ:</p>
+        <ul>
+            <li>عرض رسائل SMS في التطبيق</li>
+            <li>توفير ميزات الترجمة والردود الذكية</li>
+            <li>حفظ إعداداتك وتفضيلاتك</li>
+            <li>تحسين تجربة المستخدم</li>
+        </ul>
 
-### 3. تفعيل GitHub Pages
-- اذهب إلى Settings > Pages
-- اختر Source: "Deploy from a branch"
-- اختر Branch: "main"
-- انقر "Save"
+        <h2>حماية البيانات</h2>
+        <p>نلتزم بحماية بياناتك من خلال:</p>
+        <ul>
+            <li>تشفير البيانات المحلية</li>
+            <li>عدم مشاركة البيانات مع أطراف ثالثة</li>
+            <li>استخدام أفضل ممارسات الأمان</li>
+            <li>الوصول المحدود للبيانات الحساسة</li>
+        </ul>
 
-### 4. الحصول على الرابط
-- ستحصل على رابط مثل: `https://yourusername.github.io/smartsms-privacy`
+        <h2>الأذونات المطلوبة</h2>
+        <p>التطبيق يحتاج للأذونات التالية:</p>
+        <ul>
+            <li><strong>قراءة SMS:</strong> لعرض الرسائل الواردة</li>
+            <li><strong>إرسال SMS:</strong> لإرسال الردود</li>
+            <li><strong>قراءة جهات الاتصال:</strong> لعرض أسماء المرسلين</li>
+            <li><strong>التخزين:</strong> لحفظ إعدادات التطبيق</li>
+        </ul>
 
----
+        <h2>حقوقك</h2>
+        <p>لديك الحق في:</p>
+        <ul>
+            <li>الوصول لبياناتك الشخصية</li>
+            <li>طلب حذف بياناتك</li>
+            <li>إلغاء الأذونات في أي وقت</li>
+            <li>حذف التطبيق وإزالة جميع البيانات</li>
+        </ul>
 
-## الحل البديل: استخدام Netlify (أسهل)
+        <h2>التحديثات</h2>
+        <p>قد نحدث هذه السياسة من وقت لآخر. سنخطرك بأي تغييرات جوهرية.</p>
 
-### 1. اذهب إلى [Netlify.com](https://netlify.com)
-### 2. انقر "New site from Git"
-### 3. اربط حساب GitHub
-### 4. اختر المستودع `smartsms-privacy`
-### 5. انقر "Deploy site"
+        <h2>الأطفال</h2>
+        <p>التطبيق مناسب لجميع الأعمار ولا نجمع بيانات من الأطفال دون 13 سنة.</p>
 
-ستحصل على رابط مثل: `https://smartsms-privacy.netlify.app`
+        <div class="contact">
+            <h2>تواصل معنا</h2>
+            <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية:</p>
+            <p><strong>البريد الإلكتروني:</strong> privacy@smartsms.app</p>
+            <p><strong>التطبيق:</strong> متوفر على Google Play Store</p>
+        </div>
 
----
-
-## الحل الثالث: استخدام Vercel
-
-### 1. اذهب إلى [Vercel.com](https://vercel.com)
-### 2. اربط حساب GitHub
-### 3. اختر المستودع
-### 4. انقر "Deploy"
-
-ستحصل على رابط مثل: `https://smartsms-privacy.vercel.app`
-
----
-
-## استخدام الرابط في Google Play Console
-
-بعد الحصول على الرابط، استخدمه في:
-- **سياسة الخصوصية:** `https://yourusername.github.io/smartsms-privacy`
-- **موقع المطور:** نفس الرابط
-
----
-
-## ملاحظات مهمة:
-- جميع هذه الخدمات مجانية
-- الصفحة ستكون متاحة فوراً
-- يمكنك تحديث المحتوى في أي وقت
-- الرابط سيكون دائم ومستقر
+        <div style="text-align: center; margin-top: 40px; color: #666;">
+            <p>© 2024 Smart SMS. جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+</body>
+</html>
